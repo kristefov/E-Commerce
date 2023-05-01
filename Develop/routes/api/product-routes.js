@@ -80,6 +80,9 @@ router.put('/:id', (req, res) => {
       return ProductTag.findAll({ where: { product_id: req.params.id } });
     })
     .then((productTags) => {
+      if (!req.body.tagIds) {
+        return "Product updated"
+      }
       // get list of current tag_ids
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
       // create filtered list of new tag_ids
@@ -104,7 +107,7 @@ router.put('/:id', (req, res) => {
     })
     .then((updatedProductTags) => res.json(updatedProductTags))
     .catch((err) => {
-      // console.log(err);
+      console.error(err);
       res.status(400).json(err);
     });
 });
