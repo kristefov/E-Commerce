@@ -32,7 +32,7 @@ npm start
 ```
 
 ## Usage
-In order to use the program you will need to clone the repository from GitHub provided in the link below, run the npm commands in the installation section.
+In order to use the server you will need to clone the repository from GitHub provided in the link below, run the commands in the installation section.
 ## How to Contribute
 For and suggestions or contributions you can reach me at my email address or you can clone to code and edit it the way it will suite you the best.
 
@@ -53,11 +53,11 @@ https://github.com/kristiyantefov/E-Commerce
 Link to Video Tutorial:
 * click on the image to open the video tutorial
 
-[<img src="./images/VideoImage.png" width="50%">](https://drive.google.com/file/d/1noEFVuqH59mhlHy1OgXVJZpRSY2l_KG3/view?usp=sharing)
+[<img src="./Assets/MockUp2.png" width="50%">](https://drive.google.com/file/d/1aeTSqCoBxA8oc32jOcv-7RH0wO_RfsKI/view?usp=sharing)
 
 
 ## Mock-Up
 
 
-<img src="./images/image1.png" width="50%">
+<img src="./Assets/MockUp.png" width="50%">
 
